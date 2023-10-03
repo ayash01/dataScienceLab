@@ -5,7 +5,7 @@ def sumOfDigits(number):
     return sum
 
 def reverse(number):
-    return str(number)[::-1]
+    return int(str(number)[::-1])
 
 num = int(input("Enter a number: "))
 
